@@ -1,0 +1,28 @@
+ body{
+  background: rgb(192, 189, 189);
+ }
+
+ .job-btn:hover {
+ color: white;
+ box-shadow: 0 2px white;
+   
+}
+
+.active-btn{
+ box-shadow: 0 1px white;
+   
+}
+  
+   
+ 
+ @media screen and (min-width: 992px) {
+  .active-btn{
+    box-shadow: -2px 0  white;
+  }
+  .job-btn:hover {
+    color: white;
+    box-shadow: -2px 0  white;
+     
+  }
+
+ }
